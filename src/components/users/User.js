@@ -12,6 +12,7 @@ const User = ({ match }) => {
   useEffect(() => {
     getUser(username);
     getUserRepos(username);
+    // eslint-disable-next-line
   }, []);
 
   const {
